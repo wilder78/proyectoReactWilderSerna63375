@@ -1,6 +1,7 @@
 /* Navigation bar navbar --/-- Barra de navegación */
 .navbar {
   background-color: rgb(255, 232, 0);
+  padding: 0%;
 }
 
 .navbar-collapse {
