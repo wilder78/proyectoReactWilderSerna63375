@@ -15,7 +15,7 @@ function Map() {
                 style={{ border: 0 }}
                 allowfullscreen={false}
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>
