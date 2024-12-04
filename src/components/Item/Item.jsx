@@ -1,11 +1,11 @@
-import { useState} from "react";
+import { useState } from "react";
 import Card from "../Card/Card";
 
 export const Item = ({ nombre }) => {
-  const [cantidad, setCantidad] = useState(0)
+  const [cantidad, setCantidad] = useState(0);
   const agregarAlCarrito = () => {
     setCantidad(cantidad + 1);
-  }
+  };
 
   return (
     <>
