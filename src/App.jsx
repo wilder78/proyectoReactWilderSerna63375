@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   useEffect(() => {
-    console.log("Anda a buscar los productos.")
+    // console.log("Anda a buscar los productos.")
     
   },[])
 

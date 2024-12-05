@@ -1,19 +1,11 @@
-import { useState } from "react";
-import Card from "../Card/Card";
-
-export const Item = ({ nombre }) => {
-  const [cantidad, setCantidad] = useState(0);
-  const agregarAlCarrito = () => {
-    setCantidad(cantidad + 1);
-  };
-
+function Item({product}) {
   return (
-    <>
-      <Card>
-        <h3>{nombre}</h3>
-        <button onClick={agregarAlCarrito}>Agregar</button>
-        <p>{cantidad}</p>
-      </Card>
-    </>
+    <div>
+      <img src={product.img} alt="" />
+      <h3>{product.nombre}</h3>
+      <h4>Precio: ${product.precio}</h4>
+    </div>
   );
-};
+}
+
+export default Item;
