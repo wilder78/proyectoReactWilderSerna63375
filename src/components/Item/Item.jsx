@@ -1,9 +1,9 @@
 function Item({product}) {
   return (
     <div>
-      <img src={product.img} alt="" />
-      <h3>{product.nombre}</h3>
-      <h4>Precio: ${product.precio}</h4>
+      <img src="assets/logoMs2.png" alt={product.codigo} />
+      <h3>{product.title}</h3>
+      <h4>Precio: ${product.price}</h4>
     </div>
   );
 }

@@ -18,6 +18,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a className="navbar-brand" href="#">
+              <img src="assets/LogoMs2.png" alt="LogoMs2.png" />
               Hidden brand
             </a>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
